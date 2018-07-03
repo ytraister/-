@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background:#5ec7c8 ;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 20px;
+}
+.header{
+    padding: 15px;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+}
+.contain .img{
+    text-align: center;
+    margin: 30px;
+}
+.contain img{
+    width: 95px;
+    height: 40px;
+}
+.contain .text p{
+    padding: 50px 40px;
+    letter-spacing: 2px;
+}
+.contain .text {
+    margin-bottom: 50px;
+}
+.contain .left img{
+    width: 40px;
+    height: 40px;
+}
+.contain .left .box{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.contain .right img{
+    width: 40px;
+    height: 40px;
+}
+.contain .right .box{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
