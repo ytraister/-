@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background: #e4e1e1;
+}
+.nav {
+    height: 40px;
+    background: #5fc6d3;
+}
+.nav .left {
+    float: left;
+}
+.nav .right {
+    float: right;
+}
+.nav a{
+    color:#fff;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.nav p{
+    color:#fff;
+    margin: 0;
+    font-weight: 550;
+    text-align: center;
+    line-height: 40px;
+}
+.main .content{
+    height: 100px;
+    padding: 10px 0;
+}
+.main .phone .img,
+.main .mima .img{
+    text-align: center;
+    float: left;
+    width: 50px;
+    background: #fff;
+}
+.main .phone .in::before,
+.main .mima .in::before{
+    float: left;
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 25px;
+    background: #9e9594;
+    vertical-align: middle;
+}
+.main .phone .in,
+.main .mima .in{
+    background: #fff;
+}
+.main .phone,
+.main .mima {
+    border: 10px solid #fff;
+}
+.main .phone input,
+.main .mima input{
+    padding-left:10px; 
+    display: block;
+    border: 0;
+    height: 25px;
+    outline: 0;
+}
+.main .phone img,
+.main .mima img {
+    height: 25px;
+}
+.main .button{
+    height: 50px;
+    background: #5fc6d3;
+}
+.main .button p{
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    letter-spacing: 8px;
+}
+.main .footer{
+    float: right;
+    margin: 10px;
+}
+.main .footer a{
+    color: #00b5ff;
+}
+
+
